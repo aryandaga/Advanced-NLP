@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "direct_bias_stereo": 0.1774,
+    "direct_bias_anti": 0.1854,
+    "direct_bias_delta": -0.008,
+    "indirect_bias_mean": -0.0336,
+    "indirect_bias_std": 0.079,
+    "indirect_bias_pct_pos": 42.5,
+    "n_valid_pairs": 251,
+    "n_stereo_words": 380,
+    "n_anti_words": 388
+  },
+  "post_lora": {
+    "direct_bias_stereo": 0.141,
+    "direct_bias_anti": 0.1381,
+    "direct_bias_delta": 0.0029,
+    "indirect_bias_mean": -0.0198,
+    "indirect_bias_std": 0.0392,
+    "indirect_bias_pct_pos": 38.0,
+    "n_valid_pairs": 251,
+    "n_stereo_words": 380,
+    "n_anti_words": 388
+  },
+  "post_qlora": {
+    "direct_bias_stereo": 0.1433,
+    "direct_bias_anti": 0.1423,
+    "direct_bias_delta": 0.001,
+    "indirect_bias_mean": -0.0221,
+    "indirect_bias_std": 0.0425,
+    "indirect_bias_pct_pos": 35.4,
+    "n_valid_pairs": 251,
+    "n_stereo_words": 380,
+    "n_anti_words": 388
+  }
+}
